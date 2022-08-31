@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,500");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #660099;
+  color: #660099;
+  font-family: "Lora", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+#quote-box {
+  width: 600px;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  display: table;
+  padding: 30px 30px;
+}
+#quote-box .quote-text {
+  text-align: center;
+  font-size: 1.75em;
+  height: auto;
+  font-weight: 600;
+}
+#quote-box .quote-text i {
+  margin-right: 0.5em;
+  font-size: 1.5em;
+}
